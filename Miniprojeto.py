@@ -41,6 +41,7 @@ def eh_possivel_sair(labirinto):
             if esta_vazio(novo_x, novo_y)and (novo_x, novo_y) not in percorrido:
                 proxima_opcao = (novo_x, novo_y)
                 break
+            if
             
         if proxima_opcao:
             stack.push(proxima_opcao)

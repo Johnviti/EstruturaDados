@@ -10,7 +10,7 @@ def eh_possivel_sair(labirinto):
     percorrido = []
     
     while not stack.is_empty():
-        x, y = stack.pop()
+        x, y = stack.top()
         
         saida = (len(labirinto) - 2, len(labirinto[0]) - 1) #(m - 2, n - 1)
 

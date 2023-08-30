@@ -24,9 +24,9 @@ def eh_possivel_sair(labirinto):
         labirinto[x][y] = '+'  
 
         # Mostra o labirintoirinto com os passos atuais
-        # for linhas in labirinto:
-        #     print(''.join(linhas))
-        # print()
+        for linhas in labirinto:
+            print(''.join(linhas))
+        print()
         
         opcoes = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         
